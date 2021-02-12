@@ -39,11 +39,11 @@ a {
 
 @font-face {
     font-family: 'Gotham';
-    font-weight: 600;
-    src: url('./fonts/Gotham-Bold.otf');
+    font-weight: 700;
+    src: url('./fonts/Gotham-Black.otf');
 }
 @font-face {
     font-family: 'Gotham';
-    font-weight: 600;
-    src: url('./fonts/Gotham-Bold.otf');
+    font-weight: 800;
+    src: url('./fonts/Gotham-Ultra.otf');
 }

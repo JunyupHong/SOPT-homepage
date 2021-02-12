@@ -1,31 +1,10 @@
 import styled from '@emotion/styled';
-import ContentContainer from '../components/common/ContentContainer';
+import ContentContainer from '../components/common/Content/ContentContainer';
 
 const Styled = {
     MainWrapper: styled.div`
         display: flex;
         flex-direction: column;
-    `,
-    MainSection: styled.section`
-        position: relative;
-    `,
-    BackgroundImage: styled.img`
-        width: 100vw;
-    `,
-    SectionContent: styled.div`
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-
-        ${(props: { withImage?: boolean }) =>
-            props.withImage
-                ? ` position: absolute;
-                    top: 0;
-                    width: 100%;
-                    height: 100%;
-                    `
-                : ''};
     `,
     Button: styled.button`
         padding: 26px 104px;
@@ -42,20 +21,49 @@ const Styled = {
 const Home = () => {
     const section1 = (
         <>
-            <div style={{ color: 'white', fontSize: '24px', fontWeight: 100, width: '500px' }}>
-                전국 최대 대학생 IT 창업 동아리
+            <div
+                style={{
+                    color: 'white',
+                    fontSize: '24px',
+                    fontWeight: 400,
+                    width: '100%',
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                }}>
+                {'전국 최대 대학생 IT 창업 동아리'.split('').map((letter) => (
+                    <span>{letter}</span>
+                ))}
             </div>
-            <div style={{ color: 'white', fontSize: '180px', fontWeight: 800 }}>SOPT</div>
+            <div
+                style={{
+                    color: 'rgba(255, 255, 255, 0.85)',
+                    fontSize: '220px',
+                    fontWeight: 700,
+                    width: '100%',
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                }}>
+                {'SOPT'.split('').map((letter) => (
+                    <span>{letter}</span>
+                ))}
+            </div>
         </>
     );
     const section2 = (
         <>
-            <p style={{ textAlign: 'center', fontSize: '44px', fontWeight: 600 }}>
+            <h2 style={{ textAlign: 'center', fontSize: '44px', fontWeight: 600 }}>
                 Shout Our <br />
                 Passion Together
-            </p>
+            </h2>
             <div>아이콘콘</div>
-            <p style={{ textAlign: 'center', fontSize: '23px', fontWeight: 400, lineHeight: 1.6 }}>
+            <p
+                style={{
+                    textAlign: 'center',
+                    fontSize: '23px',
+                    fontWeight: 400,
+                    lineHeight: 1.6,
+                    margin: '68px 0 82px 0',
+                }}>
                 SOPT는 다양한 분야의 사람들이 모여 하나의 서비스를 만들기 위해 화합하는 동아리입니다. <br />
                 2008년 처음 설립된 이후 수많은 서비스를 시장에 출시하였으며 <br />
                 다양한 기업과 연계를 통한 공모전, 리크루팅, 프로젝트를 수행하고 있습니다. <br />
@@ -66,11 +74,64 @@ const Home = () => {
             <Styled.Button>더 많은 서비스 보러가기</Styled.Button>
         </>
     );
+
+    const section3 = (
+        <>
+            <div
+                style={{
+                    position: 'absolute',
+                    top: 0,
+                    width: '100%',
+                    height: '100%',
+                    background: 'rgba(255, 255, 255, 0.96)',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    justifyContent: 'center',
+                    padding: '0 244px',
+                }}>
+                <h2 style={{ fontSize: '44px', fontWeight: 600, margin: 0 }}>SOPT Activities</h2>
+                <p style={{ fontSize: '23px' }}>SOPT에서만 할 수 있는 다양한 활동들</p>
+                <div style={{ display: 'flex', marginTop: '128px' }}>
+                    <div
+                        style={{
+                            flex: 1,
+                            border: 'solid 1px',
+                            margin: '20px',
+                            background:
+                                "center / cover no-repeat url('/assets/images/mainpage_activities_1.png'), rgba(0, 0, 0, 1)",
+                            height: '300px',
+                        }}>
+                        <div
+                            style={{
+                                display: 'flex',
+                                flexDirection: 'column',
+                                alignItems: 'center',
+                                justifyContent: 'center',
+                            }}>
+                            df
+                        </div>
+                    </div>
+                    <div style={{ flex: 1, border: 'solid 1px', margin: '20px' }}>a</div>
+                    <div style={{ flex: 1, border: 'solid 1px', margin: '20px' }}>a</div>
+                </div>
+            </div>
+        </>
+    );
     return (
         <div>
             <Styled.MainWrapper>
-                <ContentContainer imageURL={'/assets/images/mainpage_background.png'}>{section1}</ContentContainer>
-                <ContentContainer>{section2}</ContentContainer>
+                <ContentContainer height={1085} imageURL={'/assets/images/mainpage_background.png'}>
+                    {section1}
+                </ContentContainer>
+                {/* <ContentContainer>{section2}</ContentContainer>
+                <ContentContainer imageURL={'/assets/images/mainpage_background.png'}>{section3}</ContentContainer>
+                <div style={{ border: 'solid 10px blue' }}>
+                    <div
+                        style={{
+                            height: '120px',
+                            background: 'center / cover no-repeat url("/assets/images/mainpage_background.png")',
+                        }}></div>
+                </div> */}
             </Styled.MainWrapper>
         </div>
     );
