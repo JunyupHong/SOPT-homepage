@@ -11,6 +11,20 @@ a {
     text-decoration: none;
 }
 
+h2 {
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0;
+}
+h3 {
+    margin: 0;
+    font-weight: 500;
+}
+
+p {
+    margin: 0;
+}
+
 * {
     box-sizing: border-box;
 }

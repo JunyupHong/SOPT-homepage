@@ -1,9 +1,10 @@
 import styled from '@emotion/styled';
+import { ReactElement } from 'react';
 
 const Styled = {
     ContentWrapper: styled.section`
+        position: relative;
         height: ${(props: { height?: number; image?: string }) => (props.height ? props.height + 'px' : 'inherit')};
-        padding: ${(props: { image?: string }) => (props.image ? 0 : '100px 0')};
         ${(props: { image?: string }) =>
             props.image ? `background: center / cover no-repeat url("${props.image}")` : ''};
     `,
@@ -19,7 +20,7 @@ const Styled = {
 };
 
 type Props = {
-    children: JSX.Element;
+    children: ReactElement;
     height?: number;
     imageURL?: string;
 };
