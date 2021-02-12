@@ -8,6 +8,8 @@ import {
     PartContent,
     ResultContent,
 } from '../components/Content';
+import Footer from '../components/common/Footer';
+
 const Styled = {
     MainWrapper: styled.div`
         display: flex;
@@ -41,6 +43,7 @@ const Home = () => {
                     <ResultContent />
                 </ContentContainer>
             </Styled.MainWrapper>
+            <Footer backgroundColor='#000' />
         </div>
     );
 };
