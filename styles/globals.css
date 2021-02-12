@@ -1,8 +1,9 @@
+
 html,
 body {
     padding: 0;
     margin: 0;
-    font-family: -apple-system, 'Noto Sans KR', BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: 'Gotham', -apple-system, 'Noto Sans KR', BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
@@ -12,4 +13,37 @@ a {
 
 * {
     box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: 'Gotham';
+    font-weight: 300;
+    src: url('./fonts/Gotham-Thin.otf');
+}
+@font-face {
+    font-family: 'Gotham';
+    font-weight: 400;
+    src: url('./fonts/Gotham-Light.otf');
+}
+@font-face {
+    font-family: 'Gotham';
+    font-weight: 500;
+    src: url('./fonts/Gotham-Medium.otf');
+}
+@font-face {
+    font-family: 'Gotham';
+    font-weight: 600;
+    src: url('./fonts/Gotham-Bold.otf');
+}
+
+@font-face {
+    font-family: 'Gotham';
+    font-weight: 600;
+    src: url('./fonts/Gotham-Bold.otf');
+}
+@font-face {
+    font-family: 'Gotham';
+    font-weight: 600;
+    src: url('./fonts/Gotham-Bold.otf');
 }
