@@ -6,9 +6,7 @@ import styled from '@emotion/styled';
 
 const Styled = {
     HeaderWrapper: styled.div`
-        position: ${(props: { fixed: boolean }) => (props.fixed ? 'fixed' : 'relative')};
-        left: 0;
-        top: 0;
+        position: absolute;
         width: 100vw;
         height: 100px;
         display: flex;
@@ -53,10 +51,9 @@ const Styled = {
 
 type Props = {
     title?: string;
-    fixed?: boolean;
 };
 
-const Header = ({ title = 'SOPT', fixed = false }: Props) => {
+const Header = ({ title = 'SOPT' }: Props) => {
     const router = useRouter();
     return (
         <>
@@ -65,7 +62,7 @@ const Header = ({ title = 'SOPT', fixed = false }: Props) => {
                 <meta charSet='utf-8' />
                 <meta name='viewport' content='initial-scale=1.0, width=device-width' />
             </Head>
-            <Styled.HeaderWrapper fixed={fixed}>
+            <Styled.HeaderWrapper>
                 <Styled.HeaderImage src='/assets/images/logo.svg'></Styled.HeaderImage>
                 <Styled.Empty />
                 <Styled.HeaderNav>

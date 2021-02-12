@@ -5,7 +5,7 @@ function MyApp({ Component, pageProps }) {
     return (
         <>
             <Header></Header>
-            <Component {...pageProps} ></Component>
+            <Component {...pageProps} style={{width: '100vw', height: '100vh', overflowY: 'scroll'}} ></Component>
         </>
     );
 }
