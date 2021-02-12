@@ -14,10 +14,8 @@ const Styled = {
         z-index: 1;
     `,
     Button: styled.button`
-        border: none;
-        outline: none;
         background: white;
-        box-shadow: 0 0 4px 4px #eee;
+        box-shadow: 0 0 6px 3px #eee;
         font-size: 28px;
         color: #444;
         padding: 26px 100px;
