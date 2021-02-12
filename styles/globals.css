@@ -11,6 +11,20 @@ a {
     text-decoration: none;
 }
 
+h2 {
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0;
+}
+h3 {
+    margin: 0;
+    font-weight: 500;
+}
+
+p {
+    margin: 0;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -39,11 +53,11 @@ a {
 
 @font-face {
     font-family: 'Gotham';
-    font-weight: 600;
-    src: url('./fonts/Gotham-Bold.otf');
+    font-weight: 700;
+    src: url('./fonts/Gotham-Black.otf');
 }
 @font-face {
     font-family: 'Gotham';
-    font-weight: 600;
-    src: url('./fonts/Gotham-Bold.otf');
+    font-weight: 800;
+    src: url('./fonts/Gotham-Ultra.otf');
 }
