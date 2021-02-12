@@ -14,7 +14,7 @@ const Styled = {
         font-weight: 700;
     `,
     Button: styled.button`
-        box-shadow: 0 0 4px 4px #eee;
+        box-shadow: 0 0 6px 3px #ddd;
         font-size: 28px;
         font-weight: 300;
         color: #333;
@@ -22,6 +22,10 @@ const Styled = {
         border-radius: 60px;
         margin: 122px 0 164px 0;
         background: #f4ce00;
+        :hover {
+            cursor: pointer;
+            background: #ffdf2c;
+        }
     `,
 };
 const ResultContent = () => {
