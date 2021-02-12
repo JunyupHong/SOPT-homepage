@@ -1,9 +1,7 @@
-import Header from '../components/common/Header';
-
 const Home = () => {
     return (
         <>
-            <div>index page</div>
+            <div style={{ fontSize: '100px' }}>home</div>
         </>
     );
 };
