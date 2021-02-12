@@ -14,8 +14,6 @@ const Styled = {
         z-index: 1;
     `,
     Button: styled.button`
-        border: none;
-        outline: none;
         background: white;
         box-shadow: 0 0 4px 4px #eee;
         font-size: 28px;

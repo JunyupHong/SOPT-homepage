@@ -1,20 +1,17 @@
 import styled from '@emotion/styled';
 import ContentContainer from '../components/Content/ContentContainer';
-import { ContentDimmed, MainContent, ServiceContent, ActivitiesContent, PartContent } from '../components/Content';
+import {
+    ContentDimmed,
+    MainContent,
+    ServiceContent,
+    ActivitiesContent,
+    PartContent,
+    ResultContent,
+} from '../components/Content';
 const Styled = {
     MainWrapper: styled.div`
         display: flex;
         flex-direction: column;
-    `,
-    Button: styled.button`
-        padding: 26px 104px;
-        border: none;
-        outline: none;
-
-        border-radius: 40px;
-        font-size: 28px;
-        background: #fff;
-        box-shadow: 0px 0px 4px 4px #eee;
     `,
 };
 
@@ -39,6 +36,9 @@ const Home = () => {
                 </ContentContainer>
                 <ContentContainer height={1085} imageURL={'/assets/images/mainpage_background.png'}>
                     <PartContent />
+                </ContentContainer>
+                <ContentContainer>
+                    <ResultContent />
                 </ContentContainer>
             </Styled.MainWrapper>
         </div>
