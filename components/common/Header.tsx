@@ -8,9 +8,10 @@ const Styled = {
     HeaderWrapper: styled.div`
         position: absolute;
         width: 100vw;
-        height: 100px;
         display: flex;
         align-items: center;
+        padding: 52px 200px;
+        z-index: 10;
     `,
     HeaderImage: styled.img`
         width: 126px;
