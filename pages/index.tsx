@@ -15,6 +15,13 @@ const Styled = {
         display: flex;
         flex-direction: column;
     `,
+    FooterArea: styled.div`
+        padding: 276px 240px 94px 240px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    `,
 };
 
 const Home = () => {
@@ -43,7 +50,9 @@ const Home = () => {
                     <ResultContent />
                 </ContentContainer>
             </Styled.MainWrapper>
-            <Footer backgroundColor='#000' />
+            <Styled.FooterArea>
+                <Footer />
+            </Styled.FooterArea>
         </div>
     );
 };

@@ -3,8 +3,6 @@ import styled from '@emotion/styled';
 const Styled = {
     Footer: styled.footer`
         width: 100%;
-        padding: 276px 240px 94px 240px;
-        background-color: ${(props: { backgroundColor?: string }) => props.backgroundColor};
         color: white;
     `,
     FooterContent: styled.div`
@@ -30,13 +28,10 @@ const Styled = {
         }
     `,
 };
-type Props = {
-    backgroundColor?: string;
-};
-const Footer = ({ backgroundColor }: Props) => {
+const Footer = () => {
     return (
         <>
-            <Styled.Footer backgroundColor={backgroundColor}>
+            <Styled.Footer>
                 <Styled.FooterContent>
                     <div className='name'>
                         Shout <br /> Our <br /> Passion <br /> Together

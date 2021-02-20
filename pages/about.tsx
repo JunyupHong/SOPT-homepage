@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 import { ContentContainer } from '../components/content';
 import { AboutMainContent, ActivityContent, AppjamContent, SeminarContent } from '../components/content/about';
+import Footer from '../components/common/Footer';
 
 const Styled = {
     MainWrapper: styled.div`
@@ -22,7 +23,12 @@ const About = () => {
                     <SeminarContent></SeminarContent>
                 </ContentContainer>
                 <ContentContainer height={2393} imageURL={'/assets/images/aboutpage_background_4.png'}>
-                    <ActivityContent></ActivityContent>
+                    <>
+                        <ActivityContent></ActivityContent>
+                        <div>
+                            <Footer />
+                        </div>
+                    </>
                 </ContentContainer>
             </Styled.MainWrapper>
         </>
