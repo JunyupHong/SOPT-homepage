@@ -25,7 +25,7 @@ const About = () => {
                 <ContentContainer height={2393} imageURL={'/assets/images/aboutpage_background_4.png'}>
                     <>
                         <ActivityContent></ActivityContent>
-                        <div style={{}}>
+                        <div style={{ width: '100%' }}>
                             <Footer />
                         </div>
                     </>
