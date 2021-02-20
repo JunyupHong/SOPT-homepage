@@ -49,7 +49,7 @@ const Styled = {
         line-height: 36px;
         color: white;
         text-align: center;
-        margin: 120px 0;
+        margin: 120px 0 160px 0;
     `,
 };
 const ActivityContent = () => {
@@ -57,7 +57,7 @@ const ActivityContent = () => {
         <>
             <Styled.Content>
                 <div>
-                    <Styled.SubTitle>솝트에 빠지면 섭합 활동들,</Styled.SubTitle>
+                    <Styled.SubTitle>솝트에 빠지면 섭한 활동들,</Styled.SubTitle>
                     <Styled.Title>ACTIVITY</Styled.Title>
                 </div>
             </Styled.Content>
@@ -73,47 +73,47 @@ const ActivityContent = () => {
                 </Styled.Card>
                 <Styled.Card>
                     <Styled.CardImg src='/assets/images/aboutpage_activity_5.png' />
-                    <Styled.CardTitle>SOPKATHON</Styled.CardTitle>
+                    <Styled.CardTitle>FESTIVAL</Styled.CardTitle>
                     <Styled.CardDesc>
-                        모든 파트가 무박 2일로
+                        공식행사를 통한 홈파티, 게임 등
                         <br />
-                        진행되는 단기간 해커톤
+                        다양한 네트워킹을 진행
                     </Styled.CardDesc>
                 </Styled.Card>
                 <Styled.Card>
                     <Styled.CardImg src='/assets/images/aboutpage_activity_5.png' />
-                    <Styled.CardTitle>SOPKATHON</Styled.CardTitle>
+                    <Styled.CardTitle>MT</Styled.CardTitle>
                     <Styled.CardDesc>
-                        모든 파트가 무박 2일로
+                        1박2일간 진행하는 MT
                         <br />
-                        진행되는 단기간 해커톤
+                        다양한 파트원들과 친목을 다짐
                     </Styled.CardDesc>
                 </Styled.Card>
                 <Styled.Card>
                     <Styled.CardImg src='/assets/images/aboutpage_activity_5.png' />
-                    <Styled.CardTitle>SOPKATHON</Styled.CardTitle>
+                    <Styled.CardTitle>STUDY</Styled.CardTitle>
                     <Styled.CardDesc>
-                        모든 파트가 무박 2일로
+                        동아리 내에서 자발적으로 진행되는
                         <br />
-                        진행되는 단기간 해커톤
+                        스터디 겸 네트워킹의 시간
                     </Styled.CardDesc>
                 </Styled.Card>
                 <Styled.Card>
                     <Styled.CardImg src='/assets/images/aboutpage_activity_5.png' />
-                    <Styled.CardTitle>SOPKATHON</Styled.CardTitle>
+                    <Styled.CardTitle>SPECIAL SEMINAR</Styled.CardTitle>
                     <Styled.CardDesc>
-                        모든 파트가 무박 2일로
+                        다양한 직무의 현직자가
                         <br />
-                        진행되는 단기간 해커톤
+                        들려주는 특별한 멘토링
                     </Styled.CardDesc>
                 </Styled.Card>
                 <Styled.Card>
                     <Styled.CardImg src='/assets/images/aboutpage_activity_5.png' />
-                    <Styled.CardTitle>SOPKATHON</Styled.CardTitle>
+                    <Styled.CardTitle>SIDE PROJECT</Styled.CardTitle>
                     <Styled.CardDesc>
-                        모든 파트가 무박 2일로
+                        매 기수 10개 이상의 자발적
                         <br />
-                        진행되는 단기간 해커톤
+                        사이드 프로젝트 진행
                     </Styled.CardDesc>
                 </Styled.Card>
             </Styled.CardWrapper>
