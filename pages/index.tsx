@@ -1,13 +1,13 @@
 import styled from '@emotion/styled';
-import ContentContainer from '../components/Content/ContentContainer';
+import ContentContainer from '../components/content/ContentContainer';
 import {
     ContentDimmed,
-    MainContent,
+    HomeMainContent,
     ServiceContent,
     ActivitiesContent,
     PartContent,
     ResultContent,
-} from '../components/Content';
+} from '../components/content/home';
 import Footer from '../components/common/Footer';
 
 const Styled = {
@@ -24,7 +24,7 @@ const Home = () => {
                 <ContentContainer height={1085} imageURL={'/assets/images/mainpage_background.png'}>
                     <>
                         <ContentDimmed color={'rgba(0,0,0,0.5)'} />
-                        <MainContent />
+                        <HomeMainContent />
                     </>
                 </ContentContainer>
                 <ContentContainer height={1085}>

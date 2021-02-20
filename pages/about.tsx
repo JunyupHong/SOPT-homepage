@@ -1,7 +1,30 @@
+import styled from '@emotion/styled';
+import { ContentContainer } from '../components/content';
+import { AboutMainContent, ActivityContent, AppjamContent, SeminarContent } from '../components/content/about';
+
+const Styled = {
+    MainWrapper: styled.div`
+        display: flex;
+        flex-direction: column;
+    `,
+};
 const About = () => {
     return (
         <>
-            <div style={{ fontSize: '100px' }}>about</div>
+            <Styled.MainWrapper>
+                <ContentContainer height={1085} imageURL={'/assets/images/aboutpage_background_1.png'}>
+                    <AboutMainContent></AboutMainContent>
+                </ContentContainer>
+                <ContentContainer height={1085} imageURL={'/assets/images/aboutpage_background_2.png'}>
+                    <AppjamContent></AppjamContent>
+                </ContentContainer>
+                <ContentContainer height={1085} imageURL={'/assets/images/aboutpage_background_3.png'}>
+                    <SeminarContent></SeminarContent>
+                </ContentContainer>
+                <ContentContainer height={2393} imageURL={'/assets/images/aboutpage_background_4.png'}>
+                    <ActivityContent></ActivityContent>
+                </ContentContainer>
+            </Styled.MainWrapper>
         </>
     );
 };
