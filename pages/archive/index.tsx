@@ -1,5 +1,12 @@
+import { useRouter } from 'next/router';
+import { useEffect } from 'react';
+
 const ArchiveIndex = () => {
-    return <>잘못된 경로입니다.</>;
+    const router = useRouter();
+    useEffect(() => {
+        router.push('/archive/27');
+    });
+    return <></>;
 };
 
 export default ArchiveIndex;
