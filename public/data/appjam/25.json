@@ -1,0 +1,11 @@
+{
+    "name": "ON SOPT",
+    "sequence": 27,
+    "teams": [
+        {
+            "name": "placepic",
+            "desc": "play place pic!",
+            "imageURL": "/assets/images/logo.png"
+        }
+    ]
+}
