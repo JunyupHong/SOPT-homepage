@@ -1,5 +1,4 @@
 import React from 'react';
-import Head from 'next/head';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import styled from '@emotion/styled';
@@ -50,19 +49,10 @@ const Styled = {
     `,
 };
 
-type Props = {
-    title?: string;
-};
-
-const Header = ({ title = 'SOPT' }: Props) => {
+const Header = () => {
     const router = useRouter();
     return (
         <>
-            <Head>
-                <title>{title}</title>
-                <meta charSet='utf-8' />
-                <meta name='viewport' content='initial-scale=1.0, width=device-width' />
-            </Head>
             <Styled.HeaderWrapper>
                 <Styled.HeaderImage src='/assets/images/logo.svg'></Styled.HeaderImage>
                 <Styled.Empty />
