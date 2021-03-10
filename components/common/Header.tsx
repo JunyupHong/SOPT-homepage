@@ -54,7 +54,7 @@ const Header = () => {
     return (
         <>
             <Styled.HeaderWrapper>
-                <Styled.HeaderImage src='/assets/images/logo.svg'></Styled.HeaderImage>
+                <Styled.HeaderImage src='/assets/images/logo.svg' alt='headerImage'></Styled.HeaderImage>
                 <Styled.Empty />
                 <Styled.HeaderNav>
                     <Link href='/'>
@@ -79,17 +79,17 @@ const Header = () => {
                 <Styled.HeaderLinkWrapper>
                     <Link href='https://www.facebook.com/clubsopt'>
                         <a target='_blank' title='페이스북 바로가기'>
-                            <Styled.HeaderLink src='/assets/icons/facebook_link.svg' />
+                            <Styled.HeaderLink src='/assets/icons/facebook_link.svg' alt='facebook-link' />
                         </a>
                     </Link>
                     <Link href='https://www.instagram.com/sopt_official/'>
                         <a target='_blank' title='인스타그램 바로가기'>
-                            <Styled.HeaderLink src='/assets/icons/instagram_link.svg' />
+                            <Styled.HeaderLink src='/assets/icons/instagram_link.svg' alt='instagram-link' />
                         </a>
                     </Link>
                     <Link href='https://www.youtube.com/channel/UCui_xDNrVlxAuGJUV8zmN6A'>
                         <a target='_blank' title='페이스북 바로가기'>
-                            <Styled.HeaderLink src='/assets/icons/youtube_link.svg' />
+                            <Styled.HeaderLink src='/assets/icons/youtube_link.svg' alt='youtube-link' />
                         </a>
                     </Link>
                 </Styled.HeaderLinkWrapper>
