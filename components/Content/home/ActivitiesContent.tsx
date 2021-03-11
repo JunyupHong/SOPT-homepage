@@ -34,6 +34,7 @@ const Styled = {
             margin-left: 0;
         }
         &:hover {
+            cursor: default;
             .activity-subtitle {
                 display: block;
             }
@@ -41,7 +42,7 @@ const Styled = {
                 display: block;
             }
             .activity-dimmed {
-                background: rgba(189, 176, 0, 0.8);
+                background: rgba(50, 60, 254, 0.7);
             }
         }
     `,

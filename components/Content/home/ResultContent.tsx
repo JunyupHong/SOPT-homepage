@@ -16,15 +16,15 @@ const Styled = {
     Button: styled.button`
         box-shadow: 0 0 6px 3px #ddd;
         font-size: 28px;
-        font-weight: 300;
-        color: #333;
+        font-weight: 400;
+        color: #eee;
         padding: 26px 100px;
         border-radius: 60px;
         margin: 122px 0 164px 0;
-        background: #f4ce00;
+        background: #4260ff;
         :hover {
             cursor: pointer;
-            background: #ffdf2c;
+            background: #2045fe;
         }
     `,
 };
