@@ -1,7 +1,6 @@
 import styled from '@emotion/styled';
-import ContentContainer from '../components/content/ContentContainer';
+import { ContentContainer, ContentDimmed } from '../components/content';
 import {
-    ContentDimmed,
     HomeMainContent,
     ServiceContent,
     ActivitiesContent,
