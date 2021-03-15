@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
                 <meta name="description" content='대학생 IT 연합동아리 SOPT 입니다.'/>
             </Head>
             <Header></Header>
-            <Component {...pageProps} style={{width: '100vw', height: '100vh', overflowY: 'scroll'}} ></Component>
+            <Component {...pageProps} style={{ width: '100vw', height: '100vh', overflowY: 'scroll' }} ></Component>
         </>
     );
 }
