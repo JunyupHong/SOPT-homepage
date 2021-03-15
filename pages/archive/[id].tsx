@@ -1,18 +1,23 @@
 import Footer from '../../components/common/Footer';
+import TeamModal from '../../components/common/TeamModal';
 
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 
 import styled from '@emotion/styled';
 
-type appjamData_T = {
+type TeamData_T = {
+    name: string;
+    desc: string;
+    imageURL: string;
+    serviceDesc: string;
+    subData: Array<{ name: string; link: string }>;
+};
+
+type AppjamData_T = {
     name: string;
     generation: number;
-    teams: Array<{
-        name: string;
-        desc: string;
-        imageURL: string;
-    }>;
+    teams: Array<TeamData_T>;
 };
 
 const Styled = {
@@ -60,13 +65,17 @@ const Styled = {
     TeamArea: styled.section`
         display: grid;
         grid-template-columns: repeat(5, 1fr);
-        row-gap: 80px;
-        column-gap: 124px;
+        row-gap: 88px;
+        width: 70%;
+        justify-content: space-between;
     `,
     TeamCard: styled.article`
         display: flex;
         flex-direction: column;
         align-items: center;
+        :hover {
+            cursor: pointer;
+        }
     `,
     TeamImg: styled.img`
         border-radius: 12px;
@@ -86,7 +95,9 @@ const Styled = {
 };
 const Archive = () => {
     const router = useRouter();
-    const [appjamData, setAppjamData] = useState<appjamData_T>();
+    const [appjamData, setAppjamData] = useState<AppjamData_T>();
+    const [modalData, setModalData] = useState<TeamData_T>();
+    const [modalState, setModalState] = useState<boolean>(false);
     useEffect(() => {
         if (!router.query.id) return;
         (async () => {
@@ -99,8 +110,23 @@ const Archive = () => {
         })();
     }, [router.query.id]);
 
+    const onClickTeam = (team: TeamData_T) => {
+        setModalData(team);
+        setModalState(true);
+    };
+
     return appjamData ? (
         <>
+            <TeamModal
+                imgUrl='/assets/appjam/logo.png'
+                teamData={modalData || appjamData.teams[0]}
+                visible={modalState}
+                on={() => {
+                    setModalState(true);
+                }}
+                off={() => {
+                    setModalState(false);
+                }}></TeamModal>
             <Styled.ArchiveWrapper>
                 <Styled.ContentWrapper>
                     <Styled.Title>Archiving</Styled.Title>
@@ -140,7 +166,7 @@ const Archive = () => {
                     </Styled.Nav>
                     <Styled.TeamArea>
                         {appjamData.teams.map((team, i) => (
-                            <Styled.TeamCard key={router.query.id + 'th-' + i}>
+                            <Styled.TeamCard key={router.query.id + 'th-' + i} onClick={() => onClickTeam(team)}>
                                 <Styled.TeamImg src={team.imageURL}></Styled.TeamImg>
                                 <Styled.TeamName>{team.name}</Styled.TeamName>
                                 <Styled.TeamDesc>{team.desc}</Styled.TeamDesc>
