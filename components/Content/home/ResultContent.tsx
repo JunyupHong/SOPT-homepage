@@ -6,11 +6,11 @@ const Styled = {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        font-size: 48px;
+        font-size: 40px;
         line-height: 2;
     `,
     Bold: styled.span`
-        font-size: 100px;
+        font-size: 88px;
         font-weight: 700;
     `,
     Button: styled.button`
