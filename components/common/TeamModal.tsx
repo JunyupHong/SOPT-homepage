@@ -1,6 +1,5 @@
 import styled from '@emotion/styled';
-import { on } from 'process';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 
 const Styled = {
     ModalWrapper: styled.div<{ visible: boolean }>`
