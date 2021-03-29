@@ -60,19 +60,19 @@ const Header = () => {
                     <Link href='/'>
                         <Styled.HeaderNavBtn match={router.pathname === '/'}>HOME</Styled.HeaderNavBtn>
                     </Link>
-                    <Link href='about'>
+                    <Link href='/about'>
                         <Styled.HeaderNavBtn match={router.pathname.includes('about')}>ABOUT</Styled.HeaderNavBtn>
                     </Link>
-                    <Link href='archive'>
+                    <Link href='/archive'>
                         <Styled.HeaderNavBtn match={router.pathname.includes('archive')}>ARCHIVING</Styled.HeaderNavBtn>
                     </Link>
-                    <Link href='history'>
+                    <Link href='/history'>
                         <Styled.HeaderNavBtn match={router.pathname.includes('history')}>HISTORY</Styled.HeaderNavBtn>
                     </Link>
-                    <Link href='partners'>
+                    <Link href='/partners'>
                         <Styled.HeaderNavBtn match={router.pathname.includes('partners')}>PARTNERS</Styled.HeaderNavBtn>
                     </Link>
-                    <Link href='recruit'>
+                    <Link href='/recruit'>
                         <Styled.HeaderNavBtn match={router.pathname.includes('recurit')}>RECRUIT</Styled.HeaderNavBtn>
                     </Link>
                 </Styled.HeaderNav>
