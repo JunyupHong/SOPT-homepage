@@ -118,7 +118,7 @@ const Archive = () => {
     return appjamData ? (
         <>
             <TeamModal
-                imgUrl='/assets/appjam/logo.png'
+                imgUrl={modalData?.imageURL || ''}
                 teamData={modalData || appjamData.teams[0]}
                 visible={modalState}
                 on={() => {
