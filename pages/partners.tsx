@@ -135,6 +135,27 @@ const partners = () => {
                             </div>
                             <div className='card-desc'>선정</div>
                         </article>
+                        <article>
+                            <img src='/assets/images/partners/soptxtomtoc.png' />
+                            <div className='card-title'>
+                                SOPT x tomtoc <br /> Review Challenge 1,2
+                            </div>
+                            <div className='card-desc'>협력 프로젝트</div>
+                        </article>
+                        <article>
+                            <img src='/assets/images/partners/campuspricing.png' />
+                            <div className='card-title'>
+                                연세대 창업지원단 <br /> 지원 외부 동아리
+                            </div>
+                            <div className='card-desc'>선정</div>
+                        </article>
+                        <article>
+                            <img src='/assets/images/partners/reviewchallenge.png' />
+                            <div className='card-title'>
+                                SOPT x tomtoc <br /> Review Challenge 1,2
+                            </div>
+                            <div className='card-desc'>협력 프로젝트</div>
+                        </article>
                     </section>
                 </Styled.ProjectArea>
                 <Styled.Title>Partners</Styled.Title>
