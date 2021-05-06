@@ -13,16 +13,16 @@ const About = () => {
     return (
         <>
             <Styled.MainWrapper>
-                <ContentContainer height={1085} imageURL={'/assets/images/aboutpage_background_1.png'}>
+                <ContentContainer height={1085} imageURL={'/assets/images/aboutpage/background_1.png'}>
                     <AboutMainContent></AboutMainContent>
                 </ContentContainer>
-                <ContentContainer height={1085} imageURL={'/assets/images/aboutpage_background_2.png'}>
+                <ContentContainer height={1085} imageURL={'/assets/images/aboutpage/background_2.png'}>
                     <AppjamContent></AppjamContent>
                 </ContentContainer>
-                <ContentContainer height={1085} imageURL={'/assets/images/aboutpage_background_3.png'}>
+                <ContentContainer height={1085} imageURL={'/assets/images/aboutpage/background_3.png'}>
                     <SeminarContent></SeminarContent>
                 </ContentContainer>
-                <ContentContainer height={2393} imageURL={'/assets/images/aboutpage_background_4.png'}>
+                <ContentContainer height={2393} imageURL={'/assets/images/aboutpage/background_4.png'}>
                     <>
                         <ActivityContent></ActivityContent>
                         <div style={{ width: '100%' }}>

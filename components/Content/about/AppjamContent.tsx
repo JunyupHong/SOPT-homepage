@@ -42,9 +42,9 @@ const AppjamContent = () => {
                         최종적으로 대규모 오픈 컨퍼런스를 통해 선보입니다.
                     </Styled.Desc>
                 </div>
-                <img src='/assets/images/service_part.png' alt='appjam-service-part' />
+                <img src='/assets/images/aboutpage/service_part.png' alt='appjam-service-part' />
             </Styled.Content>
-            <img src='/assets/images/appjam_process.png' width='100%' alt='appjam-process' />
+            <img src='/assets/images/aboutpage/appjam_process.png' width='100%' alt='appjam-process' />
         </>
     );
 };
