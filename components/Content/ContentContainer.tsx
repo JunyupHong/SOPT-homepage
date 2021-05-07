@@ -11,11 +11,15 @@ const Styled = {
     Content: styled.div`
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
         width: 100%;
         height: 100%;
         padding: 0 240px;
+        ${(props: { align?: 'left' }) =>
+            props.align === 'left'
+                ? ''
+                : `
+        align-items: center;
+        justify-content: center;`}
     `,
 };
 
@@ -23,13 +27,14 @@ type Props = {
     children: ReactElement;
     height?: number;
     imageURL?: string;
+    align?: 'left';
 };
 
-const ContentContainer = ({ children, height, imageURL }: Props) => {
+const ContentContainer = ({ children, height, imageURL, align }: Props) => {
     return (
         <>
             <Styled.ContentWrapper height={height} image={imageURL}>
-                <Styled.Content>{children}</Styled.Content>
+                <Styled.Content align={align}>{children}</Styled.Content>
             </Styled.ContentWrapper>
         </>
     );
