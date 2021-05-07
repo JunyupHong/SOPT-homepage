@@ -79,7 +79,7 @@ const ActivitiesContent = () => {
             <Styled.Title>SOPT Activities</Styled.Title>
             <Styled.Desc>SOPT에서만 할 수 있는 다양한 활동들</Styled.Desc>
             <Styled.ActivityArea>
-                <Styled.Activity imageURL='/assets/images/mainpage_activities_1.png'>
+                <Styled.Activity imageURL='/assets/images/mainpage/activities_1.png'>
                     <Styled.ActivityDimmed className='activity-dimmed' />
                     <Styled.ActivitySubTitle className='activity-subtitle'>오프라인 교육</Styled.ActivitySubTitle>
                     <Styled.ActivityTitle className='activity-title'>SEMINAR</Styled.ActivityTitle>
@@ -88,7 +88,7 @@ const ActivitiesContent = () => {
                         서로 가르치고 배우며 지식을 공유합니다.
                     </Styled.ActivityDesc>
                 </Styled.Activity>
-                <Styled.Activity imageURL='/assets/images/mainpage_activities_2.png'>
+                <Styled.Activity imageURL='/assets/images/mainpage/activities_2.png'>
                     <Styled.ActivityDimmed className='activity-dimmed' />
                     <Styled.ActivitySubTitle className='activity-subtitle'>장기간 해커톤</Styled.ActivitySubTitle>
                     <Styled.ActivityTitle className='activity-title'>APPJAM</Styled.ActivityTitle>
@@ -100,7 +100,7 @@ const ActivitiesContent = () => {
                         발표와 시현의 시간을 가집니다.
                     </Styled.ActivityDesc>
                 </Styled.Activity>
-                <Styled.Activity imageURL='/assets/images/mainpage_activities_3.png'>
+                <Styled.Activity imageURL='/assets/images/mainpage/activities_3.png'>
                     <Styled.ActivityDimmed className='activity-dimmed' />
                     <Styled.ActivitySubTitle className='activity-subtitle'>
                         외부 기업과의 협력 교육
@@ -113,7 +113,7 @@ const ActivitiesContent = () => {
                         다양한 경험을 쌓습니다.
                     </Styled.ActivityDesc>
                 </Styled.Activity>
-                <Styled.Activity imageURL='/assets/images/mainpage_activities_4.png'>
+                <Styled.Activity imageURL='/assets/images/mainpage/activities_4.png'>
                     <Styled.ActivityDimmed className='activity-dimmed' />
                     <Styled.ActivitySubTitle className='activity-subtitle'>
                         다양한 사람들과의 협업

@@ -63,7 +63,7 @@ const ActivityContent = () => {
             </Styled.Content>
             <Styled.CardWrapper>
                 <Styled.Card>
-                    <Styled.CardImg src='/assets/images/aboutpage_activity_5.png' alt='activity-1' />
+                    <Styled.CardImg src='/assets/images/aboutpage/activity_1.png' alt='activity-1' />
                     <Styled.CardTitle>SOPKATHON</Styled.CardTitle>
                     <Styled.CardDesc>
                         모든 파트가 무박 2일로
@@ -72,7 +72,7 @@ const ActivityContent = () => {
                     </Styled.CardDesc>
                 </Styled.Card>
                 <Styled.Card>
-                    <Styled.CardImg src='/assets/images/aboutpage_activity_5.png' alt='activity-2' />
+                    <Styled.CardImg src='/assets/images/aboutpage/activity_2.png' alt='activity-2' />
                     <Styled.CardTitle>FESTIVAL</Styled.CardTitle>
                     <Styled.CardDesc>
                         공식행사를 통한 홈파티, 게임 등
@@ -81,7 +81,7 @@ const ActivityContent = () => {
                     </Styled.CardDesc>
                 </Styled.Card>
                 <Styled.Card>
-                    <Styled.CardImg src='/assets/images/aboutpage_activity_5.png' alt='activity-3' />
+                    <Styled.CardImg src='/assets/images/aboutpage/activity_3.png' alt='activity-3' />
                     <Styled.CardTitle>MT</Styled.CardTitle>
                     <Styled.CardDesc>
                         1박2일간 진행하는 MT
@@ -90,7 +90,7 @@ const ActivityContent = () => {
                     </Styled.CardDesc>
                 </Styled.Card>
                 <Styled.Card>
-                    <Styled.CardImg src='/assets/images/aboutpage_activity_5.png' alt='activity-4' />
+                    <Styled.CardImg src='/assets/images/aboutpage/activity_4.png' alt='activity-4' />
                     <Styled.CardTitle>STUDY</Styled.CardTitle>
                     <Styled.CardDesc>
                         동아리 내에서 자발적으로 진행되는
@@ -99,7 +99,7 @@ const ActivityContent = () => {
                     </Styled.CardDesc>
                 </Styled.Card>
                 <Styled.Card>
-                    <Styled.CardImg src='/assets/images/aboutpage_activity_5.png' alt='activity-5' />
+                    <Styled.CardImg src='/assets/images/aboutpage/activity_5.png' alt='activity-5' />
                     <Styled.CardTitle>SPECIAL SEMINAR</Styled.CardTitle>
                     <Styled.CardDesc>
                         다양한 직무의 현직자가
@@ -108,7 +108,7 @@ const ActivityContent = () => {
                     </Styled.CardDesc>
                 </Styled.Card>
                 <Styled.Card>
-                    <Styled.CardImg src='/assets/images/aboutpage_activity_5.png' alt='activity-6' />
+                    <Styled.CardImg src='/assets/images/aboutpage/activity_6.png' alt='activity-6' />
                     <Styled.CardTitle>SIDE PROJECT</Styled.CardTitle>
                     <Styled.CardDesc>
                         매 기수 10개 이상의 자발적

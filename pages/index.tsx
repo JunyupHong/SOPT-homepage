@@ -27,7 +27,7 @@ const Home = () => {
     return (
         <div>
             <Styled.MainWrapper>
-                <ContentContainer height={1085} imageURL={'/assets/images/mainpage_background.png'}>
+                <ContentContainer height={1085} imageURL={'/assets/images/mainpage/background.png'}>
                     <>
                         <ContentDimmed color={'rgba(0,0,0,0.5)'} />
                         <HomeMainContent />
@@ -36,13 +36,13 @@ const Home = () => {
                 <ContentContainer height={1085}>
                     <ServiceContent />
                 </ContentContainer>
-                <ContentContainer height={1085} imageURL={'/assets/images/mainpage_background.png'}>
+                <ContentContainer height={1085} imageURL={'/assets/images/mainpage/background.png'}>
                     <>
                         <ContentDimmed color={'rgba(255,255,255,0.9)'} />
                         <ActivitiesContent />
                     </>
                 </ContentContainer>
-                <ContentContainer height={1085} imageURL={'/assets/images/mainpage_background.png'}>
+                <ContentContainer height={1085} imageURL={'/assets/images/mainpage/background.png'}>
                     <PartContent />
                 </ContentContainer>
                 <ContentContainer>

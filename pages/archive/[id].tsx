@@ -22,7 +22,7 @@ type AppjamData_T = {
 
 const Styled = {
     ArchiveWrapper: styled.div`
-        background-image: url('/assets/images/archivepage_background.png');
+        background-image: url('/assets/images/archivepage/background.png');
         background-size: cover;
         background-position: 1 50%;
         background-repeat: no-repeat;
