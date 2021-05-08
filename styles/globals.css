@@ -24,12 +24,16 @@ h4 {
     margin: 0;
 }
 
-p {
+p pre {
     margin: 0;
 }
 button {
     border: none;
     outline: none;
+}
+ul {
+    list-style:none;
+    padding-left:0px;
 }
 
 * {
