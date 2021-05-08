@@ -15,6 +15,9 @@ const Styled = {
     HeaderImage: styled.img`
         width: 126px;
         height: 41px;
+        &:hover {
+            cursor: pointer;
+        }
     `,
     Empty: styled.div`
         flex: 1;
@@ -54,7 +57,10 @@ const Header = () => {
     return (
         <>
             <Styled.HeaderWrapper>
-                <Styled.HeaderImage src='/assets/images/logo.svg' alt='headerImage'></Styled.HeaderImage>
+                <Styled.HeaderImage
+                    src='/assets/images/logo.svg'
+                    alt='headerImage'
+                    onClick={() => router.push('/')}></Styled.HeaderImage>
                 <Styled.Empty />
                 <Styled.HeaderNav>
                     <Link href='/'>
