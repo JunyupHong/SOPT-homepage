@@ -1,41 +1,41 @@
 [
     {
-        "image": "/assets/history/25.png",
+        "imageURL": "/assets/history/25.png",
         "period": "2021년 상반기",
         "name": "ON SOPT 27대 임원진",
         "generation": 28,
         "display": true
     },
     {
-        "image": "/assets/history/25.png",
+        "imageURL": "/assets/history/25.png",
         "period": "2020년 하반기",
         "name": "ON SOPT 26대 임원진",
         "generation": 27,
         "display": true
     },
     {
-        "image": "/assets/history/25.png",
+        "imageURL": "/assets/history/25.png",
         "period": "2020년 상반기",
         "name": "OUR SOPT 25대 임원진",
         "generation": 26,
         "display": true
     },
     {
-        "image": "/assets/history/25.png",
+        "imageURL": "/assets/history/25.png",
         "period": "2020년 상반기",
         "name": "OUR SOPT 24대 임원진",
         "generation": 25,
         "display": true
     },
     {
-        "image": "/assets/history/25.png",
+        "imageURL": "/assets/history/25.png",
         "period": "2020년 상반기",
         "name": "OUR SOPT 23대 임원진",
         "generation": 24,
         "display": true
     },
     {
-        "image": "/assets/history/25.png",
+        "imageURL": "/assets/history/25.png",
         "period": "2020년 상반기",
         "name": "OUR SOPT 22대 임원진",
         "generation": 23,

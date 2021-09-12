@@ -3,6 +3,7 @@ import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import Footer from '../../components/common/Footer';
 import { ContentContainer } from '../../components/content';
+import { Generation_T } from '../../types';
 
 const Styled = {
     Title: styled.h2`
@@ -47,15 +48,9 @@ const Styled = {
     `,
 };
 
-type History_T = {
-    image: string;
-    period: string;
-    name: string;
-    generation: number;
-};
 const HistoryIndex = () => {
     const router = useRouter();
-    const [history, setHistory] = useState<Array<History_T>>([]);
+    const [history, setHistory] = useState<Array<Omit<Generation_T, 'display'>>>([]);
 
     useEffect(() => {
         (async () => {
@@ -74,7 +69,7 @@ const HistoryIndex = () => {
                             <Styled.Content
                                 key={data.generation}
                                 onClick={() => router.push(`/history/${data.generation}`)}>
-                                <img src={data.image} width={'100%'} />
+                                <img src={data.imageURL} width={'100%'} />
                                 <p>{data.period}</p>
                                 <h3>{data.name}</h3>
                             </Styled.Content>

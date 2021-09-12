@@ -14,16 +14,16 @@ export type Appjam_T = {
 
 
 export type Generation_T = {
-  image: string,
-  period: string,
   name: string,
   generation: number;
+  period: string,
+  imageURL: string,
   display: boolean;
 };
 
 export type Executive_T = {
-  role: string,
   name: string,
+  role: string,
   desc: string,
   imageURL: string;
 };

@@ -86,7 +86,7 @@ const Styled = {
 const Archive = () => {
     const router = useRouter();
     const [appjam, setAppjam] = useState<Appjam_T>();
-    const [generation, setGeneration] = useState<Omit<Generation_T, 'image'>[]>([]);
+    const [generation, setGeneration] = useState<Omit<Generation_T, 'imageURL'>[]>([]);
     const [modal, setModal] = useState<AppjamTeam_T>();
     const [modalState, setModalState] = useState<boolean>(false);
 
