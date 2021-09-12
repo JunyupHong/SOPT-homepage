@@ -7,7 +7,7 @@ const ArchiveIndex = () => {
     useEffect(() => {
         (async () => {
             try {
-                const lastGeneration = Math.max(...JSON.parse(await (await fetch(`/data/appjam/index.json`)).text()).filter(({ display }: any) => display));
+                const lastGeneration = Math.max(...JSON.parse(await (await fetch(`/data/appjam/index.json`)).text()).filter(({ display }: any) => display).map(({ generation }: any) => generation));
                 JSON.parse(await (await fetch(`/data/appjam/${lastGeneration}.json`)).text());
                 router.push(`/archive/${lastGeneration}`);
             } catch (e) {
