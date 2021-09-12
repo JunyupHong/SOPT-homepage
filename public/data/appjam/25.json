@@ -1,171 +1,83 @@
 {
-    "name": "25 SOPT",
-    "generation": 25,
-    "teams": [
-        {
-            "name": "placepic",
-            "desc": "play place pic!",
-            "imageURL": "/assets/appjam/26/housing.png",
-            "serviceDesc": "그럼에도 불구하고, 정형화되어 세계적으로 널리 알려진 디자인 프로세스를 알고 있게 되면 많은 장점이 있습니다. 프로젝트의 새로운 문제에 직면했을 때, 전통적인 디자인 프로세스를 도입하여 문제를 해결해나갈 수 있을 것이고, 기존의 프로세스에서 아이디어를 얻어 새로운 접근법으로 변환해 사용해 볼 수도 있을 것이며, 클라이언트나 팀원들끼리 프로세스에 대해 커뮤니케이션을 할 때 이를 수월하게 해 줄 수 있는 언어가 되어줄것",
-            "subData": [
-                { "name": "서비스 흐름 영상", "link": "https://youtu.be/hQjOzVqKXzU" },
-                { "name": "iOS 베타테스트", "link": "https://testflight.apple.com/join/08nlaS1d" },
-                { "name": "소타이틀머시기머", "link": "https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%EA%B8%80%EC%9E%90%EC%88%98%EC%84%B" }
-            ]
-        },
-        {
-            "name": "HOUSING",
-            "desc": "하우징",
-            "imageURL": "/assets/appjam/26/housing.png",
-            "serviceDesc": "그럼에도 불구하고, 정형화되어 세계적으로 널리 알려진 디자인 프로세스를 알고 있게 되면 많은 장점이 있습니다. 프로젝트의 새로운 문제에 직면했을 때, 전통적인 디자인 프로세스를 도입하여 문제를 해결해나갈 수 있을 것이고, 기존의 프로세스에서 아이디어를 얻어 새로운 접근법으로 변환해 사용해 볼 수도 있을 것이며, 클라이언트나 팀원들끼리 프로세스에 대해 커뮤니케이션을 할 때 이를 수월하게 해 줄 수 있는 언어가 되어줄것",
-            "subData": [
-                { "name": "서비스 흐름 영상", "link": "https://youtu.be/hQjOzVqKXzU" },
-                { "name": "iOS 베타테스트", "link": "https://testflight.apple.com/join/08nlaS1d" },
-                { "name": "소타이틀머시기머", "link": "https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%EA%B8%80%EC%9E%90%EC%88%98%EC%84%B" }
-            ]
-        },
-        {
-            "name": "placepic",
-            "desc": "play place pic!",
-            "imageURL": "/assets/appjam/26/housing.png",
-            "serviceDesc": "그럼에도 불구하고, 정형화되어 세계적으로 널리 알려진 디자인 프로세스를 알고 있게 되면 많은 장점이 있습니다. 프로젝트의 새로운 문제에 직면했을 때, 전통적인 디자인 프로세스를 도입하여 문제를 해결해나갈 수 있을 것이고, 기존의 프로세스에서 아이디어를 얻어 새로운 접근법으로 변환해 사용해 볼 수도 있을 것이며, 클라이언트나 팀원들끼리 프로세스에 대해 커뮤니케이션을 할 때 이를 수월하게 해 줄 수 있는 언어가 되어줄것",
-            "subData": [
-                { "name": "서비스 흐름 영상", "link": "https://youtu.be/hQjOzVqKXzU" },
-                { "name": "iOS 베타테스트", "link": "https://testflight.apple.com/join/08nlaS1d" },
-                { "name": "소타이틀머시기머", "link": "https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%EA%B8%80%EC%9E%90%EC%88%98%EC%84%B" }
-            ]
-        },
-        {
-            "name": "placepic",
-            "desc": "play place pic!",
-            "imageURL": "/assets/appjam/26/housing.png",
-            "serviceDesc": "그럼에도 불구하고, 정형화되어 세계적으로 널리 알려진 디자인 프로세스를 알고 있게 되면 많은 장점이 있습니다. 프로젝트의 새로운 문제에 직면했을 때, 전통적인 디자인 프로세스를 도입하여 문제를 해결해나갈 수 있을 것이고, 기존의 프로세스에서 아이디어를 얻어 새로운 접근법으로 변환해 사용해 볼 수도 있을 것이며, 클라이언트나 팀원들끼리 프로세스에 대해 커뮤니케이션을 할 때 이를 수월하게 해 줄 수 있는 언어가 되어줄것",
-            "subData": [
-                { "name": "서비스 흐름 영상", "link": "https://youtu.be/hQjOzVqKXzU" },
-                { "name": "iOS 베타테스트", "link": "https://testflight.apple.com/join/08nlaS1d" },
-                { "name": "소타이틀머시기머", "link": "https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%EA%B8%80%EC%9E%90%EC%88%98%EC%84%B" }
-            ]
-        },
-        {
-            "name": "placepic",
-            "desc": "play place pic!",
-            "imageURL": "/assets/appjam/26/housing.png",
-            "serviceDesc": "그럼에도 불구하고, 정형화되어 세계적으로 널리 알려진 디자인 프로세스를 알고 있게 되면 많은 장점이 있습니다. 프로젝트의 새로운 문제에 직면했을 때, 전통적인 디자인 프로세스를 도입하여 문제를 해결해나갈 수 있을 것이고, 기존의 프로세스에서 아이디어를 얻어 새로운 접근법으로 변환해 사용해 볼 수도 있을 것이며, 클라이언트나 팀원들끼리 프로세스에 대해 커뮤니케이션을 할 때 이를 수월하게 해 줄 수 있는 언어가 되어줄것",
-            "subData": [
-                { "name": "서비스 흐름 영상", "link": "https://youtu.be/hQjOzVqKXzU" },
-                { "name": "iOS 베타테스트", "link": "https://testflight.apple.com/join/08nlaS1d" },
-                { "name": "소타이틀머시기머", "link": "https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%EA%B8%80%EC%9E%90%EC%88%98%EC%84%B" }
-            ]
-        },
-        {
-            "name": "placepic",
-            "desc": "play place pic!",
-            "imageURL": "/assets/appjam/26/housing.png",
-            "serviceDesc": "그럼에도 불구하고, 정형화되어 세계적으로 널리 알려진 디자인 프로세스를 알고 있게 되면 많은 장점이 있습니다. 프로젝트의 새로운 문제에 직면했을 때, 전통적인 디자인 프로세스를 도입하여 문제를 해결해나갈 수 있을 것이고, 기존의 프로세스에서 아이디어를 얻어 새로운 접근법으로 변환해 사용해 볼 수도 있을 것이며, 클라이언트나 팀원들끼리 프로세스에 대해 커뮤니케이션을 할 때 이를 수월하게 해 줄 수 있는 언어가 되어줄것",
-            "subData": [
-                { "name": "서비스 흐름 영상", "link": "https://youtu.be/hQjOzVqKXzU" },
-                { "name": "iOS 베타테스트", "link": "https://testflight.apple.com/join/08nlaS1d" },
-                { "name": "소타이틀머시기머", "link": "https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%EA%B8%80%EC%9E%90%EC%88%98%EC%84%B" }
-            ]
-        },
-        {
-            "name": "placepic",
-            "desc": "play place pic!",
-            "imageURL": "/assets/appjam/26/housing.png",
-            "serviceDesc": "그럼에도 불구하고, 정형화되어 세계적으로 널리 알려진 디자인 프로세스를 알고 있게 되면 많은 장점이 있습니다. 프로젝트의 새로운 문제에 직면했을 때, 전통적인 디자인 프로세스를 도입하여 문제를 해결해나갈 수 있을 것이고, 기존의 프로세스에서 아이디어를 얻어 새로운 접근법으로 변환해 사용해 볼 수도 있을 것이며, 클라이언트나 팀원들끼리 프로세스에 대해 커뮤니케이션을 할 때 이를 수월하게 해 줄 수 있는 언어가 되어줄것",
-            "subData": [
-                { "name": "서비스 흐름 영상", "link": "https://youtu.be/hQjOzVqKXzU" },
-                { "name": "iOS 베타테스트", "link": "https://testflight.apple.com/join/08nlaS1d" },
-                { "name": "소타이틀머시기머", "link": "https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%EA%B8%80%EC%9E%90%EC%88%98%EC%84%B" }
-            ]
-        },
-        {
-            "name": "placepic",
-            "desc": "play place pic!",
-            "imageURL": "/assets/appjam/26/housing.png",
-            "serviceDesc": "그럼에도 불구하고, 정형화되어 세계적으로 널리 알려진 디자인 프로세스를 알고 있게 되면 많은 장점이 있습니다. 프로젝트의 새로운 문제에 직면했을 때, 전통적인 디자인 프로세스를 도입하여 문제를 해결해나갈 수 있을 것이고, 기존의 프로세스에서 아이디어를 얻어 새로운 접근법으로 변환해 사용해 볼 수도 있을 것이며, 클라이언트나 팀원들끼리 프로세스에 대해 커뮤니케이션을 할 때 이를 수월하게 해 줄 수 있는 언어가 되어줄것",
-            "subData": [
-                { "name": "서비스 흐름 영상", "link": "https://youtu.be/hQjOzVqKXzU" },
-                { "name": "iOS 베타테스트", "link": "https://testflight.apple.com/join/08nlaS1d" },
-                { "name": "소타이틀머시기머", "link": "https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%EA%B8%80%EC%9E%90%EC%88%98%EC%84%B" }
-            ]
-        },
-        {
-            "name": "placepic",
-            "desc": "play place pic!",
-            "imageURL": "/assets/appjam/26/housing.png",
-            "serviceDesc": "그럼에도 불구하고, 정형화되어 세계적으로 널리 알려진 디자인 프로세스를 알고 있게 되면 많은 장점이 있습니다. 프로젝트의 새로운 문제에 직면했을 때, 전통적인 디자인 프로세스를 도입하여 문제를 해결해나갈 수 있을 것이고, 기존의 프로세스에서 아이디어를 얻어 새로운 접근법으로 변환해 사용해 볼 수도 있을 것이며, 클라이언트나 팀원들끼리 프로세스에 대해 커뮤니케이션을 할 때 이를 수월하게 해 줄 수 있는 언어가 되어줄것",
-            "subData": [
-                { "name": "서비스 흐름 영상", "link": "https://youtu.be/hQjOzVqKXzU" },
-                { "name": "iOS 베타테스트", "link": "https://testflight.apple.com/join/08nlaS1d" },
-                { "name": "소타이틀머시기머", "link": "https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%EA%B8%80%EC%9E%90%EC%88%98%EC%84%B" }
-            ]
-        },
-        {
-            "name": "placepic",
-            "desc": "play place pic!",
-            "imageURL": "/assets/appjam/26/housing.png",
-            "serviceDesc": "그럼에도 불구하고, 정형화되어 세계적으로 널리 알려진 디자인 프로세스를 알고 있게 되면 많은 장점이 있습니다. 프로젝트의 새로운 문제에 직면했을 때, 전통적인 디자인 프로세스를 도입하여 문제를 해결해나갈 수 있을 것이고, 기존의 프로세스에서 아이디어를 얻어 새로운 접근법으로 변환해 사용해 볼 수도 있을 것이며, 클라이언트나 팀원들끼리 프로세스에 대해 커뮤니케이션을 할 때 이를 수월하게 해 줄 수 있는 언어가 되어줄것",
-            "subData": [
-                { "name": "서비스 흐름 영상", "link": "https://youtu.be/hQjOzVqKXzU" },
-                { "name": "iOS 베타테스트", "link": "https://testflight.apple.com/join/08nlaS1d" },
-                { "name": "소타이틀머시기머", "link": "https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%EA%B8%80%EC%9E%90%EC%88%98%EC%84%B" }
-            ]
-        },
-        {
-            "name": "placepic",
-            "desc": "play place pic!",
-            "imageURL": "/assets/appjam/26/housing.png",
-            "serviceDesc": "그럼에도 불구하고, 정형화되어 세계적으로 널리 알려진 디자인 프로세스를 알고 있게 되면 많은 장점이 있습니다. 프로젝트의 새로운 문제에 직면했을 때, 전통적인 디자인 프로세스를 도입하여 문제를 해결해나갈 수 있을 것이고, 기존의 프로세스에서 아이디어를 얻어 새로운 접근법으로 변환해 사용해 볼 수도 있을 것이며, 클라이언트나 팀원들끼리 프로세스에 대해 커뮤니케이션을 할 때 이를 수월하게 해 줄 수 있는 언어가 되어줄것",
-            "subData": [
-                { "name": "서비스 흐름 영상", "link": "https://youtu.be/hQjOzVqKXzU" },
-                { "name": "iOS 베타테스트", "link": "https://testflight.apple.com/join/08nlaS1d" },
-                { "name": "소타이틀머시기머", "link": "https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%EA%B8%80%EC%9E%90%EC%88%98%EC%84%B" }
-            ]
-        },
-        {
-            "name": "placepic",
-            "desc": "play place pic!",
-            "imageURL": "/assets/appjam/26/housing.png",
-            "serviceDesc": "그럼에도 불구하고, 정형화되어 세계적으로 널리 알려진 디자인 프로세스를 알고 있게 되면 많은 장점이 있습니다. 프로젝트의 새로운 문제에 직면했을 때, 전통적인 디자인 프로세스를 도입하여 문제를 해결해나갈 수 있을 것이고, 기존의 프로세스에서 아이디어를 얻어 새로운 접근법으로 변환해 사용해 볼 수도 있을 것이며, 클라이언트나 팀원들끼리 프로세스에 대해 커뮤니케이션을 할 때 이를 수월하게 해 줄 수 있는 언어가 되어줄것",
-            "subData": [
-                { "name": "서비스 흐름 영상", "link": "https://youtu.be/hQjOzVqKXzU" },
-                { "name": "iOS 베타테스트", "link": "https://testflight.apple.com/join/08nlaS1d" },
-                { "name": "소타이틀머시기머", "link": "https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%EA%B8%80%EC%9E%90%EC%88%98%EC%84%B" }
-            ]
-        },
-        {
-            "name": "placepic",
-            "desc": "play place pic!",
-            "imageURL": "/assets/appjam/26/housing.png",
-            "serviceDesc": "그럼에도 불구하고, 정형화되어 세계적으로 널리 알려진 디자인 프로세스를 알고 있게 되면 많은 장점이 있습니다. 프로젝트의 새로운 문제에 직면했을 때, 전통적인 디자인 프로세스를 도입하여 문제를 해결해나갈 수 있을 것이고, 기존의 프로세스에서 아이디어를 얻어 새로운 접근법으로 변환해 사용해 볼 수도 있을 것이며, 클라이언트나 팀원들끼리 프로세스에 대해 커뮤니케이션을 할 때 이를 수월하게 해 줄 수 있는 언어가 되어줄것",
-            "subData": [
-                { "name": "서비스 흐름 영상", "link": "https://youtu.be/hQjOzVqKXzU" },
-                { "name": "iOS 베타테스트", "link": "https://testflight.apple.com/join/08nlaS1d" },
-                { "name": "소타이틀머시기머", "link": "https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%EA%B8%80%EC%9E%90%EC%88%98%EC%84%B" }
-            ]
-        },
-        {
-            "name": "placepic",
-            "desc": "play place pic!",
-            "imageURL": "/assets/appjam/26/housing.png",
-            "serviceDesc": "그럼에도 불구하고, 정형화되어 세계적으로 널리 알려진 디자인 프로세스를 알고 있게 되면 많은 장점이 있습니다. 프로젝트의 새로운 문제에 직면했을 때, 전통적인 디자인 프로세스를 도입하여 문제를 해결해나갈 수 있을 것이고, 기존의 프로세스에서 아이디어를 얻어 새로운 접근법으로 변환해 사용해 볼 수도 있을 것이며, 클라이언트나 팀원들끼리 프로세스에 대해 커뮤니케이션을 할 때 이를 수월하게 해 줄 수 있는 언어가 되어줄것",
-            "subData": [
-                { "name": "서비스 흐름 영상", "link": "https://youtu.be/hQjOzVqKXzU" },
-                { "name": "iOS 베타테스트", "link": "https://testflight.apple.com/join/08nlaS1d" },
-                { "name": "소타이틀머시기머", "link": "https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%EA%B8%80%EC%9E%90%EC%88%98%EC%84%B" }
-            ]
-        },
-        {
-            "name": "placepic",
-            "desc": "play place pic!",
-            "imageURL": "/assets/appjam/26/housing.png",
-            "serviceDesc": "그럼에도 불구하고, 정형화되어 세계적으로 널리 알려진 디자인 프로세스를 알고 있게 되면 많은 장점이 있습니다. 프로젝트의 새로운 문제에 직면했을 때, 전통적인 디자인 프로세스를 도입하여 문제를 해결해나갈 수 있을 것이고, 기존의 프로세스에서 아이디어를 얻어 새로운 접근법으로 변환해 사용해 볼 수도 있을 것이며, 클라이언트나 팀원들끼리 프로세스에 대해 커뮤니케이션을 할 때 이를 수월하게 해 줄 수 있는 언어가 되어줄것",
-            "subData": [
-                { "name": "서비스 흐름 영상", "link": "https://youtu.be/hQjOzVqKXzU" },
-                { "name": "iOS 베타테스트", "link": "https://testflight.apple.com/join/08nlaS1d" },
-                { "name": "소타이틀머시기머", "link": "https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%EA%B8%80%EC%9E%90%EC%88%98%EC%84%B" }
-            ]
-        }
-    ]
+  "name": "BE SOPT",
+  "generation": 28,
+  "teams": [
+    {
+      "name": "CRECKER",
+      "desc": "크리에이터라면 누구나!\n계약없는 오픈 MCN 플랫폼 서비스",
+      "imageURL": "/assets/appjam/25/CRECKER.png",
+      "serviceDesc": "",
+      "subData": []
+    },
+    {
+      "name": "Flood",
+      "desc": "정보를 공유하는 가장 쉬운 방법",
+      "imageURL": "/assets/appjam/25/Flood.png",
+      "serviceDesc": "",
+      "subData": []
+    },
+    {
+      "name": "Fluff",
+      "desc": "하나뿐인 당신을 더 특별하게 만들어줄,\n취향 기반 빈티지 쇼핑 플랫폼",
+      "imageURL": "/assets/appjam/25/Fluff.png",
+      "serviceDesc": "",
+      "subData": []
+    },
+    {
+      "name": "PLOT",
+      "desc": "영화관에서 시작하는 첫 만남,\n영화데이트 매칭 서비스",
+      "imageURL": "/assets/appjam/25/PLOT.png",
+      "serviceDesc": "",
+      "subData": []
+    },
+    {
+      "name": "W!TH",
+      "desc": "안전하고 간편한 여행 동행 플랫폼",
+      "imageURL": "/assets/appjam/25/W!TH.png",
+      "serviceDesc": "",
+      "subData": []
+    },
+    {
+      "name": "얼리버디",
+      "desc": "약속시간을 위한 나만의 대중교통 배차 알리미",
+      "imageURL": "/assets/appjam/25/얼리버디.png",
+      "serviceDesc": "",
+      "subData": []
+    },
+    {
+      "name": "인턴즈",
+      "desc": "인턴 경험의 모든 것",
+      "imageURL": "/assets/appjam/25/인턴즈.png",
+      "serviceDesc": "",
+      "subData": []
+    },
+    {
+      "name": "케디",
+      "desc": "SELF-CARE.\n방향성을 제시하다",
+      "imageURL": "/assets/appjam/25/케디.png",
+      "serviceDesc": "",
+      "subData": []
+    },
+    {
+      "name": "큐즈미",
+      "desc": "발달장애인을 위한\n카드형 의사소통도구",
+      "imageURL": "/assets/appjam/25/큐즈미.png",
+      "serviceDesc": "",
+      "subData": []
+    },
+    {
+      "name": "톡딱",
+      "desc": "맞춤형 여행경비 계산 / 관리 서비스",
+      "imageURL": "/assets/appjam/25/톡딱.png",
+      "serviceDesc": "",
+      "subData": []
+    },
+    {
+      "name": "펀디토",
+      "desc": "나만의 맛집에 투자하는 외식업 크라우드 펀딩 서비스",
+      "imageURL": "/assets/appjam/25/펀디토.png",
+      "serviceDesc": "",
+      "subData": []
+    }
+  ]
 }

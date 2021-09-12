@@ -113,7 +113,7 @@ const partners = () => {
                             진행했습니다.
                         </p>
                     </div>
-                    <section>
+                    <section className='scroll-style'>
                         <article>
                             <img src='/assets/images/partners/remotework.png' />
                             <div className='card-title'>

@@ -1,0 +1,172 @@
+{
+  "name": "BE SOPT",
+  "generation": 28,
+  "teams": [
+    {
+      "name": "캐치미",
+      "desc": "나의 매일을 다채롭게,\n관심사 기반 캐릭터 관리",
+      "imageURL": "/assets/appjam/27/logo.png",
+      "serviceDesc": "‘내 속엔 내가 너무도 많아...’\n\n이런 생각 해보신 적 있나요? 우리는 일상 속에서 다양한 ‘나’를 마주합니다. 본업에 몰입하는 나, 취미 생활을 즐기는 나, 자기계발로 자신을 가꿔가는 나. 수많은 ‘나’가 존재하지만 우리는 종종 그 ‘나’들을 놓치고는 하죠.\n\n캐치미 속 다양한 캐츄들과 함께 마음 속 수많은 나를 잡아보세요. 오늘의 내가 어떤 모습이었는지 놓치지 않고 기록하며 보다 더 다채로운 삶을 살아볼까요?",
+      "subData": [
+        {
+          "name": "캐치미 랜딩 페이지",
+          "link": "http://catchme.site/"
+        }
+      ]
+    },
+    {
+      "name": "카핀(CA:PIN)",
+      "desc": "믿고 보는 카페맵",
+      "imageURL": "/assets/appjam/27/logo.png",
+      "serviceDesc": " 오늘도 카페 어디 갈 지 한참동안 찾아보는 당신을 위해 !\n\n카핀이 선정한 좋은 카페들, 모두 모아 지도로 보여드려요 . 해시태그 검색을 통해 원하는 조건의 카페를, CafeTI 검사를 통해 내 취향에 맞는 곳들을 찾아 보세요 .\n\n좋은 카페, 이젠 힘들게 찾아보지 않고 보는 것에서 끝날 수 있도록 카핀이 함께 할게요 !",
+      "subData": [
+        {
+          "name": "카핀 랜딩 페이지 (출시 알림) : ",
+          "link": "https://zxasd191.wixsite.com/capin"
+        },
+        {
+          "name": "공식 인스타그램 계정",
+          "link": "@club_ca.pin"
+        },
+        {
+          "name": "공식 이메일 주소",
+          "link": "teamcapin@gmail.com"
+        }
+      ]
+    },
+    {
+      "name": "O2(Open Together)",
+      "desc": "더 나은 내일을 만드는 창업가들의 이야기, 그들만의 공간",
+      "imageURL": "/assets/appjam/27/logo.png",
+      "serviceDesc": "창업에 도전한 여러분들의 성장과 성공을 위한 창업가들의 커뮤니티 \nOpen Together에서 다른 창업가분들과 함께 이야기 나누고 인사이트를 나눠보세요! \n\n\n오늘의 내 모습을 통해 더 성장한 창업가가 될 수 있는 회고 챌린지, \nLearn Myself와 연사가 되어 강연도 해보고, 다른 사람의 \n강연도 들어볼 수 있는 Share Together를 통해 Open Together가 당신의 \n성공을 함께합니다.",
+      "subData": [
+        {
+          "name": "Open Together 노션 페이지",
+          "link": "https://www.notion.so/Open-Together-O2-61131e1f2ffb48e4b9630f27a7684071"
+        },
+        {
+          "name": "Open Together 도메인",
+          "link": "https://www.opentogether-o2.com/"
+        }
+      ]
+    },
+    {
+      "name": "비움(B:um)",
+      "desc": "나만의 스트레스 휴지통",
+      "imageURL": "/assets/appjam/27/logo.png",
+      "serviceDesc": "",
+      "subData": []
+    },
+    {
+      "name": "두리번(DOORIBON)",
+      "desc": "작은 움직임이 만드는 우리다운 여행",
+      "imageURL": "/assets/appjam/27/logo.png",
+      "serviceDesc": "두리번은 함께하는 사람을 알게 되는 여행 플래닝 서비스입니다. 사용자는 여행 성향 테스트를 통해 서로의 여행 유형을 파악하고, 자신에 대한 정보를 재미있고 편안하게 소통하며 서로 배려하고 맞춰갈 수 있습니다. 또한, 쉽게 일정을 정리하고 공유하여 체계적으로 여행을 준비할 수 있습니다. 주변 사람을 두리번거림으로써 모두가 오랫동안 소중하게 기억하는 행복한 여행을 할 수 있도록 돕는 것이 우리의 목표입니다.",
+      "subData": [
+        {
+          "name": "두리번 노션 페이지",
+          "link": "https://common-rhubarb-935.notion.site/DOORIBON-05e1b4e991f64bcbb2d1eb40ae3877d8"
+        },
+        {
+          "name": "두리번 여행 성향 테스트",
+          "link": "https://d2tnok5h4fx13d.cloudfront.net"
+        }
+      ]
+    },
+    {
+      "name": "TAKE US",
+      "desc": "유기견을 기다리고 있는 바다 건너의 새로운 삶.\nTAKE US, TAKERS!",
+      "imageURL": "/assets/appjam/27/logo.png",
+      "serviceDesc": "TAKE US는 유기견 해외이동봉사를 위해 유기견을 탐색하고 이동봉사와 관련된 정보를 탐색하는 이동봉사자들과 이러한 봉사자를 모집하는 단체를 돕습니다.\nTAKE US를 통해 봉사자들은 출국지역에 맞는 이동봉사 대상견을 탐색 할 수 있고 보호단체는 봉사자를 모집하는데 들이는 시간과 노력을 줄일 수 있습니다.\n\n새로운 삶을 찾아 떠나는 아이들의 여행에 동행해 주세요.",
+      "subData": [
+        {
+          "name": "TAKE US 프로모션 영상",
+          "link": "https://www.youtube.com/watch?v=nCiYXbrsqwA"
+        },
+        {
+          "name": "TAKE US 시연영상",
+          "link": "https://www.youtube.com/watch?v=Huunc-iPlKo&t=1s "
+        }
+      ]
+    },
+    {
+      "name": "차로",
+      "desc": "차에서의 오늘의 최고가 될 수 있게,\n당신의 드라이브 메이트 차로",
+      "imageURL": "/assets/appjam/27/logo.png",
+      "serviceDesc": "차로는 경험 기반 드라이브 코스 공유 서비스입니다. 차로에서 직접 다녀온 사람들의 드라이브 경험을 구경하고, 원하는 지역과 테마로 맞춤 드라이브 코스를 검색하고, 나만의 드라이브 코스를 기록해보세요. 차로는 드라이브 커뮤니티로서 차에서의 오늘이 최고가 될 수 있게 양질의 컨텐츠를 제공하며, 드라이버들의 소통 공간으로서 역할할 것입니다.",
+      "subData": [
+        {
+          "name": "차로 소개 노션 페이지",
+          "link": "https://nosy-catmint-6ad.notion.site/CHARO-612a25d65faf40edbfd8558a4799c277"
+        },
+        {
+          "name": "차로 인스타그램",
+          "link": "@charo_2021_official @team_charorong"
+        }
+      ]
+    },
+    {
+      "name": "Kyrics",
+      "desc": "K-Pop 가사로 배우는 우리말, 키릭스",
+      "imageURL": "/assets/appjam/27/logo.png",
+      "serviceDesc": "세계인들에게 우리말과 우리 문화를 널리 알리는 것.\n\nKyrics는 이 미션을 위해 더 많은 외국어 화자가 한국어를 쉽고 재미있게 배우는 것을 목표로 하고 그에 따른 전략을 구상합니다.\n\n키릭스는 외국인이 케이팝 아티스트들과 그들의 노래를 통해 한국어를 배울 수 있도록 돕는 서비스입니다. 사용자는 자신이 좋아하는 아티스트를 탐색하고, 노래를 들으며, 가사를 읽고, 가사의 핵심 표현을 바탕으로 제공하는 단어장을 통해 한국어 학습을 할 수 있습니다.",
+      "subData": []
+    },
+    {
+      "name": "쟈니",
+      "desc": "잃어버린 당신의 일상을 꺠워줄 행복 메이트",
+      "imageURL": "/assets/appjam/27/logo.png",
+      "serviceDesc": "",
+      "subData": []
+    },
+    {
+      "name": "마스코타",
+      "desc": "반려동물의 일상도, 이별도 아름답게",
+      "imageURL": "/assets/appjam/27/logo.png",
+      "serviceDesc": "",
+      "subData": []
+    },
+    {
+      "name": "오무렌",
+      "desc": "골라줄게, 너에게 딱 맞는 렌즈",
+      "imageURL": "/assets/appjam/27/logo.png",
+      "serviceDesc": "오늘 무슨 렌즈끼지? 고민될땐!\n오무렌은 콘택트렌즈 소비자 누구나 자신에게 맞는 렌즈를 찾을 수 있도록 도와주는 맞춤형 콘택트렌즈 추천 서비스입니다.\n\n오무렌은 콘택트렌즈의 정보 비대칭문제를 해결하고, 소비자 중심으로 콘택트렌즈를 개편합니다. 이를 통해 콘택트렌즈 소비자들이 보다 렌즈 소비를 현명하게, 렌즈 생활을 건강하게 지속할 수 있도록 돕습니다.",
+      "subData": []
+    },
+    {
+      "name": "핸디캔디",
+      "desc": "내 손안의 달콤한 보상",
+      "imageURL": "/assets/appjam/27/logo.png",
+      "serviceDesc": "핸디캔디는 나만의 보상과 휴식을 담고, 한곳에 모으고, 행복을 채우는 '보상아카이빙'서비스입니다. 캔디처럼 달콤한 보상을 단 몇 번의 클릭으로 담아, 상황별로(카테고리/날짜) 모아보세요. 완료한 보상은 일지와 함께, 월별로 확인하며 나만의 행복을 아카이빙할 수 있어요. 바쁜 일상에 지쳐 보상과 휴식을 소홀히 했던 당신이, 이제는 일상에서 행복을 자주 그리고 다양하게 느끼도록 핸디캔디가 함께하겠습니다.",
+      "subData": [
+        {
+          "name": "오피셜 노션 계정",
+          "link": "https://oval-pick-379.notion.site/HANDY-CANDY-8f3cbf246535465a8256e1c6b7ed5834"
+        },
+        {
+          "name": "공식 E-MAIL",
+          "link": "handycandyteam.official@gmail.com"
+        },
+        {
+          "name": "인스타 계정",
+          "link": "www.instagram.com/handycandy_official_"
+        },
+        {
+          "name": "랜딩페이지",
+          "link": "https://handy-candy.webflow.io/"
+        },
+        {
+          "name": "플로우 시연",
+          "link": "https://www.youtube.com/channel/UC4pUmDQO6rsPS2cddlrEJ8A"
+        }
+      ]
+    },
+    {
+      "name": "Colfume",
+      "desc": "색으로 찾는 나만의 향기",
+      "imageURL": "/assets/appjam/27/logo.png",
+      "serviceDesc": "",
+      "subData": []
+    }
+  ]
+}

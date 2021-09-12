@@ -3,6 +3,7 @@ import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import Footer from '../../components/common/Footer';
 import { ContentContainer } from '../../components/content';
+import type { Executive_T } from '../../types';
 
 const Styled = {
     Title: styled.h2`
@@ -47,7 +48,7 @@ const Styled = {
     Li: styled.li`
         font-size: 16px;
         margin: 32px 0;
-        font-weight: ${(props: { selected?: boolean }) => (props.selected ? 600 : 300)};
+        font-weight: ${(props: { selected?: boolean; }) => (props.selected ? 600 : 300)};
         &:hover {
             cursor: pointer;
             font-weight: 600;
@@ -101,16 +102,10 @@ type Role_T =
     | 'iOS파트장'
     | '웹파트장';
 
-type Excutive_T = {
-    role: Role_T;
-    name: string;
-    desc: string;
-    imageURL: string;
-};
 type History_T = {
     name: string;
     generation: number;
-    executives: Array<Excutive_T>;
+    executives: Array<Executive_T>;
 };
 const roles: Array<Role_T> = [
     '회장',
@@ -133,7 +128,7 @@ const History = () => {
         generation: 27,
         executives: [],
     });
-    const [executive, setExecutive] = useState<Excutive_T>({
+    const [executive, setExecutive] = useState<Executive_T>({
         role: '회장',
         name: '',
         desc: '',

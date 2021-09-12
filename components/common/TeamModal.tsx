@@ -1,8 +1,9 @@
 import styled from '@emotion/styled';
 import { useEffect } from 'react';
+import type { AppjamTeam_T } from '../../types';
 
 const Styled = {
-    ModalWrapper: styled.div<{ visible: boolean }>`
+    ModalWrapper: styled.div<{ visible: boolean; }>`
         display: ${(props) => (props.visible ? 'flex' : 'none')};
         align-items: center;
         justify-content: center;
@@ -34,6 +35,7 @@ const Styled = {
     `,
     Desc: styled.p`
         font-size: 20px;
+        white-space: pre-wrap;
     `,
     SubTitle: styled.div`
         font-size: 20px;
@@ -42,23 +44,26 @@ const Styled = {
     `,
     SubDesc: styled.p`
         font-size: 16px;
+        white-space: pre-wrap;
+        word-break: keep-all;
     `,
     Content: styled.div`
         margin: 52px 0;
     `,
-};
-
-type Team_T = {
-    name: string;
-    desc: string;
-    imageURL: string;
-    serviceDesc: string;
-    subData: Array<{ name: string; link: string }>;
+    Additional: styled.div`
+        a {
+            margin: auto;
+            margin-left: 10px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space:nowrap;
+        }
+    `
 };
 
 type Props_T = {
     imgUrl: string;
-    teamData: Team_T;
+    teamData: AppjamTeam_T;
     visible: boolean;
     on: Function;
     off: Function;
@@ -84,17 +89,17 @@ const TeamModal = function ({ imgUrl, teamData, visible, on, off }: Props_T) {
                     <Styled.SubDesc style={{ lineHeight: '1.6' }}>{teamData.serviceDesc}</Styled.SubDesc>
                 </Styled.Content>
                 {teamData.subData.length > 0 ? (
-                    <div>
+                    <Styled.Additional>
                         <Styled.SubTitle>추가 자료</Styled.SubTitle>
                         {teamData.subData.map((data, i) => (
-                            <div key={'additional-' + i} style={{ display: 'flex', margin: '10px 0' }}>
+                            <div key={'additional-' + i} style={{ display: 'flex' }}>
                                 <Styled.SubDesc style={{ flex: 1, minWidth: '128px' }}>{data.name}</Styled.SubDesc>
-                                <a href={data.link} style={{ flex: 3, overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                                <a href={data.link} style={{ flex: 3 }}>
                                     {data.link}
                                 </a>
                             </div>
                         ))}
-                    </div>
+                    </Styled.Additional>
                 ) : (
                     ''
                 )}
